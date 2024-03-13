@@ -4,6 +4,7 @@ const worldCupYear = document.getElementById("year");
 const headCoach = document.getElementById("head-coach");
 const playerCards = document.getElementById("player-cards");
 const playersDropdownList = document.getElementById("players");
+
 const myFavoriteFootballTeam = {
   team: "Argentina",
   sport: "Football",
@@ -13,6 +14,7 @@ const myFavoriteFootballTeam = {
     coachName: "Carlos Bilardo",
     matches: 7,
   },
+
   players: [
     {
       name: "Sergio Almirón",
@@ -21,6 +23,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
     {
       name: "Sergio Batista",
       position: "midfielder",
@@ -28,6 +31,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
      {
       name: "Ricardo Bochini",
       position: "midfielder",
@@ -35,6 +39,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "El Bocha",
     },
+
     {
       name: "Claudio Borghi",
       position: "midfielder",
@@ -42,6 +47,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "Bichi",
     },
+
     {
       name: "José Luis Brown",
       position: "defender",
@@ -49,6 +55,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "Tata",
     },
+
     {
       name: "Daniel Passarella",
       position: "defender",
@@ -56,6 +63,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "El Gran Capitán",
     },
+
     {
       name: "Jorge Burruchaga",
       position: "forward",
@@ -63,6 +71,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "Burru",
     },
+
     {
       name: "Néstor Clausen",
       position: "defender",
@@ -70,6 +79,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
     {
       name: "José Luis Cuciuffo",
       position: "defender",
@@ -77,6 +87,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "El Cuchu",
     },
+
     {
       name: "Diego Maradona",
       position: "midfielder",
@@ -84,6 +95,7 @@ const myFavoriteFootballTeam = {
       isCaptain: true,
       nickname: "El Pibe de Oro",
     },
+
     {
       name: "Jorge Valdano",
       position: "forward",
@@ -91,6 +103,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "The Philosopher of Football",
     },
+
     {
       name: "Héctor Enrique",
       position: "midfielder",
@@ -98,6 +111,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
     {
       name: "Oscar Garré",
       position: "defender",
@@ -105,6 +119,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
     {
       name: "Ricardo Giusti",
       position: "midfielder",
@@ -112,6 +127,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
     {
       name: "Luis Islas",
       position: "goalkeeper",
@@ -119,6 +135,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "El loco",
     },
+
     {
       name: "Julio Olarticoechea",
       position: "defender",
@@ -126,6 +143,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
     {
       name: "Pedro Pasculli",
       position: "forward",
@@ -133,6 +151,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
     {
       name: "Nery Pumpido",
       position: "goalkeeper",
@@ -140,6 +159,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
     {
       name: "Oscar Ruggeri",
       position: "defender",
@@ -147,6 +167,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "El Cabezón",
     },
+
     {
       name: "Carlos Tapia",
       position: "midfielder",
@@ -154,6 +175,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
     {
       name: "Marcelo Trobbiani",
       position: "midfielder",
@@ -161,6 +183,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: "Calesita",
     },
+
     {
       name: "Héctor Zelada",
       position: "goalkeeper",
@@ -168,6 +191,7 @@ const myFavoriteFootballTeam = {
       isCaptain: false,
       nickname: null,
     },
+
   ],
 };
 
